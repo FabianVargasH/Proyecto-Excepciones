@@ -1,0 +1,7 @@
+package vargas.fabian.bl.excepciones;
+
+public class UsuarioNoEncontradoException extends BibliotecaException {
+    public UsuarioNoEncontradoException(String mensaje) {
+        super(mensaje);
+    }
+}
